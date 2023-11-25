@@ -20,22 +20,22 @@ describe('AccueilComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  // it(`should have as text 'DIMOGNE TEHEM'`, () => {
-  //   const fixture = TestBed.createComponent(AccueilComponent)
-  //   const accueil = fixture.componentInstance;
-  //   expect(accueil.noms).toEqual('DIMOGNE TEHEM');
-  // });
-  //
-  // it(`should have as text 'Emmanuel Franck'`, () => {
-  //   const fixture = TestBed.createComponent(AccueilComponent)
-  //   const accueil = fixture.componentInstance;
-  //   expect(accueil.prenoms).toEqual('Emmanuel Franck');
-  // });
-  //
-  // it(`should have as text '4ème année'`, () => {
-  //   const fixture = TestBed.createComponent(AccueilComponent)
-  //   const accueil = fixture.componentInstance;
-  //   expect(accueil.classe).toEqual('4ème année');
-  // });
+  it(`should have as text 'DIMOGNE TEHEM'`, () => {
+    const fixture = TestBed.createComponent(AccueilComponent)
+    const accueil = fixture.componentInstance;
+    expect(accueil.noms).toEqual('DIMOGNE TEHEM');
+  });
+
+  it(`should have as text 'Emmanuel Franck'`, () => {
+    const fixture = TestBed.createComponent(AccueilComponent)
+    const accueil = fixture.componentInstance;
+    expect(accueil.prenoms).toEqual('Emmanuel Franck');
+  });
+
+  it(`should have as text '4ème année'`, () => {
+    const fixture = TestBed.createComponent(AccueilComponent)
+    const accueil = fixture.componentInstance;
+    expect(accueil.classe).toEqual('4ème année');
+  });
 
 });

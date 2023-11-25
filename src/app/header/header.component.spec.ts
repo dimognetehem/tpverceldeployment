@@ -19,9 +19,9 @@ describe('HeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  // it(`should have as text 'Developer'`, () => {
-  //   const fixture = TestBed.createComponent(HeaderComponent)
-  //   const header = fixture.componentInstance;
-  //   expect(header.headertext).toEqual('Developer');
-  // });
+  it(`should have as text 'Developer'`, () => {
+    const fixture = TestBed.createComponent(HeaderComponent)
+    const header = fixture.componentInstance;
+    expect(header.headertext).toEqual('Developer');
+  });
 });
